@@ -6,7 +6,7 @@
     "precio": 28000,
     "tamano": "Personal (12cm)",
     "descripcion": "Bizcocho suave con avena, banano maduro y toque de canela.",
-    "imagen": "img/postre_ejemplo.jpg"
+    "imagen": "img/avenaYbanano.jpg"
   },
   {
     "id": "saludable-2",
@@ -15,7 +15,7 @@
     "precio": 32000,
     "tamano": "Mediano (20cm)",
     "descripcion": "Brownie húmedo preparado con cacao puro y harina integral.",
-    "imagen": "img/postre_ejemplo.jpg"
+    "imagen": "img/brownie.jpg"
   },
   {
     "id": "tradicional-1",
@@ -24,7 +24,7 @@
     "precio": 45000,
     "tamano": "Grande (25cm)",
     "descripcion": "Clásica torta casera con crema suave y sabor tradicional.",
-    "imagen": "img/postre_ejemplo.jpg"
+    "imagen": "img/tarta-de-tres-leches.jpg"
   },
   {
     "id": "tradicional-2",
@@ -33,6 +33,6 @@
     "precio": 22000,
     "tamano": "Personal (12cm)",
     "descripcion": "Galletas artesanales con textura crujiente y aroma casero.",
-    "imagen": "img/postre_ejemplo.jpg"
+    "imagen": "img/mantequilla.jpg"
   }
 ]
