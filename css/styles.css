@@ -241,6 +241,7 @@ footer {
 .hero img,
 .historia img {
   width: min(100%, 32rem);
+  margin-inline: auto;
   border-radius: 1.25rem;
   box-shadow: 0 0.45rem 1.25rem rgba(46, 42, 37, 0.08);
 }
