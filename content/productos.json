@@ -4,6 +4,7 @@
     "nombre": "Bizcocho de avena y banano",
     "linea": "saludable",
     "precio": 28000,
+    "tamano": "Personal (12cm)",
     "descripcion": "Bizcocho suave con avena, banano maduro y toque de canela.",
     "imagen": "img/postre_ejemplo.jpg"
   },
@@ -12,6 +13,7 @@
     "nombre": "Brownie integral de cacao",
     "linea": "saludable",
     "precio": 32000,
+    "tamano": "Mediano (20cm)",
     "descripcion": "Brownie húmedo preparado con cacao puro y harina integral.",
     "imagen": "img/postre_ejemplo.jpg"
   },
@@ -20,6 +22,7 @@
     "nombre": "Torta de tres leches",
     "linea": "tradicional",
     "precio": 45000,
+    "tamano": "Grande (25cm)",
     "descripcion": "Clásica torta casera con crema suave y sabor tradicional.",
     "imagen": "img/postre_ejemplo.jpg"
   },
@@ -28,6 +31,7 @@
     "nombre": "Galletas de mantequilla",
     "linea": "tradicional",
     "precio": 22000,
+    "tamano": "Personal (12cm)",
     "descripcion": "Galletas artesanales con textura crujiente y aroma casero.",
     "imagen": "img/postre_ejemplo.jpg"
   }

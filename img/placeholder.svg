@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Foto pendiente">
+  <rect x="12" y="12" width="776" height="576" rx="28" fill="#fdfaf0" stroke="#2e2a25" stroke-width="4" stroke-dasharray="10 10" opacity="0.55"/>
+  <g fill="none" stroke="#2e2a25" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" opacity="0.65">
+    <rect x="260" y="190" width="280" height="180" rx="24"/>
+    <path d="M300 330l66-72 52 52 38-38 84 86"/>
+    <circle cx="344" cy="244" r="18" fill="#2e2a25" stroke="none"/>
+  </g>
+  <text x="400" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" fill="#2e2a25" opacity="0.7">Foto pendiente</text>
+</svg>

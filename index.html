@@ -3,10 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Auténtico | Repostería artesanal casera</title>
+  <title>Auténtico Repostería</title>
+  <link rel="icon" type="image/png" href="img/favicon.jpg">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <svg style="display:none" aria-hidden="true" focusable="false">
+    <symbol id="icon-whatsapp" viewBox="0 0 32 32">
+      <path fill="currentColor" d="M16.11 4C9.93 4 5.01 8.82 5.01 14.76c0 2.1.62 4.14 1.8 5.92L5 28l7.55-1.93a11.4 11.4 0 0 0 3.56.57h.01c6.18 0 11.22-4.82 11.22-10.76C27.34 8.82 22.3 4 16.11 4zm6.56 15.19c-.27.76-1.56 1.46-2.16 1.55-.56.08-1.28.12-2.07-.13-.48-.15-1.1-.35-1.9-.7-3.34-1.45-5.52-4.84-5.68-5.07-.16-.22-1.35-1.8-1.35-3.44 0-1.64.86-2.44 1.17-2.77.3-.33.68-.42.91-.42h.65c.2 0 .47-.08.73.55.27.64.9 2.21.98 2.37.08.16.13.35.03.57-.1.22-.15.35-.3.54-.16.18-.32.4-.46.54-.15.15-.31.31-.13.62.18.3.78 1.3 1.68 2.11 1.16 1.04 2.14 1.36 2.44 1.51.3.16.48.13.66-.08.19-.2.8-.91 1.02-1.22.22-.31.44-.25.74-.15.3.1 1.92.9 2.25 1.06.33.16.55.24.63.38.08.13.08.78-.19 1.54z"/>
+    </symbol>
+  </svg>
   <header id="header" class="header">
     <a class="header__brand" href="#hero">Auténtico</a>
 
@@ -23,8 +29,11 @@
       <a href="#footer">Contacto</a>
     </nav>
 
-    <a class="header__whatsapp" href="https://wa.me/5210000000000" target="_blank" rel="noopener noreferrer" aria-label="Escribir por WhatsApp">
-      WhatsApp
+    <a class="header__whatsapp" href="https://wa.me/3122495288" target="_blank" rel="noopener noreferrer" aria-label="Escribir por WhatsApp">
+      <svg class="icon-whatsapp icon-whatsapp--nav" aria-hidden="true" focusable="false">
+        <use href="#icon-whatsapp"></use>
+      </svg>
+      <span class="sr-only">WhatsApp</span>
     </a>
   </header>
 
@@ -32,14 +41,25 @@
     <section id="hero" class="hero">
       <article>
         <h1>Auténtico</h1>
-        <p><!-- TODO: texto real sobre la propuesta de valor de la marca --></p>
+        <p>
+            En Auténtico creemos que cada dulce momento merece ser especial. Creamos postres tradicionales y opciones saludables elaboradas con ingredientes de calidad, dedicación y creatividad, para que cada persona pueda disfrutar sabores auténticos sin renunciar al bienestar.
+
+            <br>Un dulce momento, una experiencia auténtica.
+        </p>
       </article>
     </section>
 
     <section id="historia" class="historia">
       <article>
         <h2>Nuestra historia</h2>
-        <p><!-- TODO: texto real sobre el origen, la familia y el proceso artesanal --></p>
+        <img src="img/Isotipo.png" alt="Foto de la fundadora de Auténtico preparando repostería artesanal - PENDIENTE REEMPLAZAR">
+        <p>
+            Auténtico nace del sueño de Luz Margery Giraldo, repostera profesional apasionada por crear momentos especiales a través de sabores inolvidables.<br>
+
+            Desde Calarcá, Quindío, ha dedicado varios años a transformar ingredientes y recetas en preparaciones hechas con dedicación, creatividad y mucho amor. Su propósito es enriquecer el mundo de la repostería ofreciendo alternativas más saludables e innovadoras, sin dejar de lado los sabores tradicionales que hacen parte de nuestros mejores recuerdos.<br>
+            <hr>
+            Cada creación de Auténtico busca ser más que un postre: un dulce momento, una experiencia auténtica.
+        </p>
       </article>
     </section>
 
@@ -48,25 +68,61 @@
 
       <article class="saludable">
         <h3>Saludable</h3>
-        <p><!-- TODO: texto real sobre opciones con ingredientes más ligeros o funcionales --></p>
+        <p>En Auténtico creamos opciones pensadas para disfrutar de un dulce momento de una manera más consciente. Elaboramos preparaciones con ingredientes seleccionados y alternativas que buscan equilibrar sabor, bienestar y calidad, sin perder ese toque casero que hace especial cada creación</p>
       </article>
 
       <article class="tradicional">
         <h3>Tradicional</h3>
-        <p><!-- TODO: texto real sobre recetas clásicas, sabores caseros y técnicas artesanales --></p>
+        <p>Nuestra repostería tradicional celebra los sabores que nos acompañan en los mejores momentos. Tortas, galletas, postres y otras preparaciones elaboradas con dedicación, recetas llenas de tradición y ese sabor auténtico que convierte cada ocasión en algo especial.</p>
       </article>
     </section>
 
     <section id="catalogo" class="catalogo">
       <h2>Catálogo</h2>
-      <p><!-- TODO: texto real de introducción al catálogo --></p>
+      <p>
+        Descubre algunas de las creaciones que tenemos para hacer de cada ocasión un momento especial. Los precios publicados corresponden al tamaño, presentación y características indicadas en cada producto.
+        <br>
+        Si deseas modificar el tamaño, la cantidad, los sabores, la decoración o cualquier otro detalle, el valor puede variar. Escríbenos por WhatsApp y nuestro equipo te ayudará a cotizar una opción personalizada según lo que necesitas.
+      </p>
       <div id="catalogo-grid"></div>
     </section>
 
     <section id="como-pedir" class="como-pedir">
       <h2>Cómo pedir</h2>
       <article>
-        <p><!-- TODO: texto real con pasos para hacer pedidos, tiempos y formas de entrega --></p>
+        <ol>
+          <li>
+            <span class="paso-numero">1</span>
+            <div>
+              <h3>Elige tu postre</h3>
+              <p>Explora nuestro catálogo y descubre las opciones que tenemos para ti.</p>
+            </div>
+          </li>
+          <li>
+            <span class="paso-numero">2</span>
+            <div>
+              <h3>Escríbenos por WhatsApp</h3>
+              <p>Usa el botón de WhatsApp para pedir, cotizar tamaños personalizados o contar una idea especial.</p>
+              <svg class="icon-whatsapp icon-whatsapp--paso" aria-hidden="true" focusable="false">
+                <use href="#icon-whatsapp"></use>
+              </svg>
+            </div>
+          </li>
+          <li>
+            <span class="paso-numero">3</span>
+            <div>
+              <h3>Personaliza y confirma</h3>
+              <p>Definimos tamaño, sabor, decoración, fecha de entrega y valor final del pedido.</p>
+            </div>
+          </li>
+          <li>
+            <span class="paso-numero">4</span>
+            <div>
+              <h3>Disfruta</h3>
+              <p>Recibe tu creación y comparte un dulce momento lleno de sabor.</p>
+            </div>
+          </li>
+        </ol>
       </article>
     </section>
   </main>

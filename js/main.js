@@ -72,16 +72,24 @@ document.addEventListener('DOMContentLoaded', () => {
 					maximumFractionDigits: 0,
 				});
 
+				const tamano = document.createElement('p');
+				tamano.className = 'producto-card__tamano';
+				tamano.textContent = `Precio para tamaño: ${producto.tamano}`;
+
+				const notaTamano = document.createElement('p');
+				notaTamano.className = 'producto-card__nota';
+				notaTamano.textContent = '¿Necesitas otro tamaño? Cotiza por WhatsApp';
+
 				const descripcion = document.createElement('p');
 				descripcion.textContent = producto.descripcion;
 
 				const whatsapp = document.createElement('a');
-				whatsapp.href = `https://wa.me/5210000000000?text=${encodeURIComponent(`Hola, quiero pedir: ${producto.nombre}`)}`;
+				whatsapp.href = `https://wa.me/3122495288?text=${encodeURIComponent(`Hola, quiero pedir: ${producto.nombre}`)}`;
 				whatsapp.target = '_blank';
 				whatsapp.rel = 'noopener noreferrer';
 				whatsapp.textContent = 'Pedir por WhatsApp';
 
-				card.append(imagen, nombre, precio, descripcion, whatsapp);
+				card.append(imagen, nombre, precio, tamano, notaTamano, descripcion, whatsapp);
 				catalogoGrid.appendChild(card);
 			});
 		} catch (error) {
