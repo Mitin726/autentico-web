@@ -240,7 +240,7 @@ footer {
 
 .hero img,
 .historia img {
-  width: min(100%, 24rem);
+  width: min(100%, 32rem);
   border-radius: 1.25rem;
   box-shadow: 0 0.45rem 1.25rem rgba(46, 42, 37, 0.08);
 }
@@ -643,9 +643,9 @@ footer {
 
   .hero img,
   .historia img {
-    max-width: 34rem;
+    max-width: 38rem;
     margin-inline: auto;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
   }
 
