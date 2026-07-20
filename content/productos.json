@@ -1,38 +1,56 @@
 [
   {
-    "id": "saludable-1",
-    "nombre": "Bizcocho de avena y banano",
-    "linea": "saludable",
-    "precio": 28000,
-    "tamano": "Personal (12cm)",
-    "descripcion": "Bizcocho suave con avena, banano maduro y toque de canela.",
-    "imagen": "img/avenaYbanano.jpg"
-  },
-  {
-    "id": "saludable-2",
-    "nombre": "Brownie integral de cacao",
-    "linea": "saludable",
-    "precio": 32000,
-    "tamano": "Mediano (20cm)",
-    "descripcion": "Brownie húmedo preparado con cacao puro y harina integral.",
-    "imagen": "img/brownie.jpg"
-  },
-  {
     "id": "tradicional-1",
-    "nombre": "Torta de tres leches",
+    "nombre": "Pie de Limón",
     "linea": "tradicional",
     "precio": 45000,
-    "tamano": "Grande (25cm)",
-    "descripcion": "Clásica torta casera con crema suave y sabor tradicional.",
-    "imagen": "img/tarta-de-tres-leches.jpg"
+    "tamano": "Grande",
+    "descripcion": "Un clásico que combina una base crujiente con un cremoso relleno de limón.",
+    "imagen": "img/pie.png"
   },
   {
     "id": "tradicional-2",
-    "nombre": "Galletas de mantequilla",
+    "nombre": "Rollo de Canela",
     "linea": "tradicional",
     "precio": 22000,
-    "tamano": "Personal (12cm)",
-    "descripcion": "Galletas artesanales con textura crujiente y aroma casero.",
-    "imagen": "img/mantequilla.jpg"
+    "tamano": "Personal",
+    "descripcion": "Rollos de masa esponjosa con el irresistible aroma y sabor de la canela.",
+    "imagen": "img/canela.png"
+  },
+  {
+    "id": "tradicional-3",
+    "nombre": "Cupcake de Red Velvet",
+    "linea": "tradicional",
+    "precio": 22000,
+    "tamano": "Personal",
+    "descripcion": "Cupcakes suaves y aterciopelados con el inconfundible sabor del Red Velvet.",
+    "imagen": "img/cupcake.png"
+  },
+  {
+    "id": "saludable-1",
+    "nombre": "Donas de Chocolate",
+    "linea": "saludable",
+    "precio": 22000,
+    "tamano": "Personal",
+    "descripcion": "Donas suaves y esponjosas, elaboradas con harina de avena para un sabor delicioso.",
+    "imagen": "img/donas.png"
+  },
+  {
+    "id": "tradicional-4",
+    "nombre": "Repollas Rellenas",
+    "linea": "tradicional",
+    "precio": 22000,
+    "tamano": "Personal",
+    "descripcion": "Delicadas repollitas con una masa ligera y un suave relleno de crema pastelera.",
+    "imagen": "img/repolla.png"
+  },
+  {
+    "id": "tradicional-5",
+    "nombre": "Galletas de Zanahoria",
+    "linea": "tradicional",
+    "precio": 22000,
+    "tamano": "Personal",
+    "descripcion": "Galleta suave y llena de sabor, elaborada con zanahoria para un toque especial.",
+    "imagen": "img/zanahoria.png"
   }
 ]

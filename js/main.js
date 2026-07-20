@@ -61,16 +61,16 @@ document.addEventListener('DOMContentLoaded', () => {
 			const nombre = document.createElement('h3');
 			nombre.textContent = producto.nombre;
 
-			const precio = document.createElement('p');
+			/*const precio = document.createElement('p');
 			precio.textContent = producto.precio.toLocaleString('es-CO', {
 				style: 'currency',
 				currency: 'COP',
 				maximumFractionDigits: 0,
-			});
+			});*/
 
 			const tamano = document.createElement('p');
 			tamano.className = 'producto-card__tamano';
-			tamano.textContent = `Precio para tamaño: ${producto.tamano}`;
+			tamano.textContent = `Tamaño foto: ${producto.tamano}`;
 
 			const notaTamano = document.createElement('p');
 			notaTamano.className = 'producto-card__nota';
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			whatsapp.rel = 'noopener noreferrer';
 			whatsapp.textContent = 'Pedir por WhatsApp';
 
-			card.append(imagen, nombre, precio, tamano, notaTamano, descripcion, whatsapp);
+			card.append(imagen, nombre, tamano, notaTamano, descripcion, whatsapp);
 			catalogoGrid.appendChild(card);
 		});
 	}
