@@ -3,7 +3,7 @@
 # Auténtico Repostería
 ## ¿Qué es Auténtico?
 
-Auténtico es una propuesta de repostería nacida en Calarcá, Quindío, creada por mi madre, Luz Margery Giraldo, repostera profesional. La página presenta una marca enfocada en postres tradicionales y opciones más saludables, elaboradas con ingredientes de calidad, dedicación y creatividad, para ofrecer sabores auténticos sin perder de vista el bienestar.
+Auténtico es una propuesta de repostería nacida en Calarcá, Quindío, creada por mi madre Luz, repostera profesional. La página presenta una marca enfocada en postres tradicionales y opciones más saludables, elaboradas con ingredientes de calidad, dedicación y creatividad, para ofrecer sabores auténticos sin perder de vista el bienestar.
 
 Además de contar la historia del proyecto, el sitio permite conocer el catálogo de productos, revisar las líneas de producción y hacer pedidos de forma directa por WhatsApp. Actualmente tiene cobertura en Armenia y Calarcá, con atención pensada para pedidos y celebraciones especiales.
 
