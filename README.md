@@ -1,6 +1,7 @@
 ![Autentico](./img/Logo%20principal.png)
 
 # Auténtico Repostería
+![Status](https://img.shields.io/badge/Estado-Finalizado-success)
 ## ¿Qué es Auténtico?
 
 Auténtico es una propuesta de repostería nacida en Calarcá, Quindío, creada por mi madre Luz, repostera profesional. La página presenta una marca enfocada en postres tradicionales y opciones más saludables, elaboradas con ingredientes de calidad, dedicación y creatividad, para ofrecer sabores auténticos sin perder de vista el bienestar.
