@@ -52,5 +52,23 @@
     "tamano": "Personal",
     "descripcion": "Galleta suave y llena de sabor, elaborada con zanahoria para un toque especial.",
     "imagen": "img/zanahoria.png"
+  },
+  {
+    "id": "saludable-2",
+    "nombre": "Torta de Zanahoria",
+    "linea": "saludable",
+    "precio": 22000,
+    "tamano": "Grande",
+    "descripcion": "Torta suave y esponjosa, elaborada con zanahoria para un sabor casero e irresistible.",
+    "imagen": "img/torta_zanahoria.png"
+  },
+  {
+    "id": "saludable-3",
+    "nombre": "Strudel de Manzana",
+    "linea": "saludable",
+    "precio": 22000,
+    "tamano": "Mediano",
+    "descripcion": "El equilibrio perfecto entre una suave masa y el dulce sabor de la manzana.",
+    "imagen": "img/strudel_manzana.png"
   }
 ]
